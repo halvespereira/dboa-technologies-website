@@ -12,5 +12,9 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"format": "npx prettier -w ."
+	},
+	"dependencies": {
+		"@astrojs/image": "^0.7.1",
+		"sharp": "^0.31.0"
 	}
 }
