@@ -5,6 +5,7 @@
 		"moduleResolution": "node",
 		"experimentalDecorators": true,
 		// Add type definitions for our Vite runtime.
-		"types": ["vite/client"]
+		"types": ["vite/client"],
+		"strict": false
 	}
 }
