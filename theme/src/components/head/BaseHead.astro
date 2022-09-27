@@ -47,7 +47,10 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
 
 <!-- Google Analytics -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0G40W237E"></script>
+
+<!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243288643-1">
+</script>
 
 <script>
   var host = window.location.hostname;
@@ -56,7 +59,8 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     
-    gtag('config', 'G-D0G40W237E');
+    gtag('config', 'UA-243288643-1');
+   
     // Place Google Analytics code here.
   }
 </script>
